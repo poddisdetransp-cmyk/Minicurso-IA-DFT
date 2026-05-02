@@ -1,5 +1,5 @@
 # IA Aplicada à Gestão Pública
-## Curso de Autoaprendizado — DETRAN-SP / DFT
+## Curso de Autoaprendizado — Gestão Pública
 ### Da Engenharia de Prompts à Produção de Documentos, Dados, Dashboards e Cenários Estratégicos
 
 ---
@@ -51,7 +51,7 @@ Vamos começar pelo que a maioria das pessoas imagina errado.
 Quando você digita algo no Google, ele procura páginas que existem na internet e te mostra links. Quando você digita algo numa IA de linguagem, ela não procura nada — ela *gera* uma resposta com base em padrões que aprendeu durante o treinamento. É uma diferença fundamental.
 
 **A IA não sabe o que está acontecendo agora.**
-A menos que você forneça essa informação no momento da conversa, a IA não tem acesso a notícias do dia, sistemas internos do DETRAN-SP, e-mails que você recebeu ou processos em andamento. Ela só sabe o que você digitar para ela — e o que aprendeu no treinamento.
+A menos que você forneça essa informação no momento da conversa, a IA não tem acesso a notícias do dia, sistemas internos da instituição, e-mails que você recebeu ou processos em andamento. Ela só sabe o que você digitar para ela — e o que aprendeu no treinamento.
 
 **A IA não é infalível.**
 Ela erra. Às vezes com muita confiança. O fenômeno tem nome: *alucinação*. A IA pode citar uma lei que não existe, inventar um número, atribuir uma frase a alguém que nunca a disse — e fazer tudo isso com um tom seguro e detalhado, como se fosse verdade absoluta. Seu papel é sempre revisar.
@@ -86,7 +86,7 @@ Pense na IA como um **estagiário muito inteligente e muito bem-lido, mas sem ex
 
 Esse estagiário:
 - Leu mais sobre redação, direito administrativo, gestão pública e análise de dados do que qualquer pessoa que você conhece.
-- Não conhece o contexto interno do DETRAN-SP, as relações políticas, os processos específicos, os acordos tácitos.
+- Não conhece o contexto interno da instituição, as relações políticas, os processos específicos, os acordos tácitos.
 - Executa muito bem o que você pede — mas se você pedir de forma vaga, vai entregar algo vago.
 - Não lembra nada do que conversou com você ontem (a menos que você cole na conversa de hoje).
 - Pode cometer erros graves com muita confiança. Você precisa revisar.
@@ -507,7 +507,7 @@ Tenho os seguintes pontos que preciso comunicar em e-mail formal ao
 cidadão que solicitou informações sobre o prazo de renovação de CNH:
 
 - O prazo é de até 30 dias após o agendamento
-- O agendamento está disponível no portal detran.sp.gov.br
+- O agendamento está disponível no portal institucional
 - Documentos necessários: CNH original, comprovante de residência e exame médico
 - Em caso de dúvida: canal 0800-XXXXX
 
@@ -978,7 +978,7 @@ Texto:
 
 Use o contexto abaixo (ou substitua por um caso real do seu trabalho, sem dados pessoais):
 
-> *Processo de credenciamento de empresa de despache para atuação junto ao DETRAN-SP. A empresa foi notificada por irregularidade na documentação em 15/02/2026. Em 28/02, apresentou os documentos faltantes. A análise técnica concluiu que os documentos estão conformes. Processo aguarda despacho de regularização para seguir para aprovação.*
+> *Processo de credenciamento de empresa para atuação junto ao órgão público. A empresa foi notificada por irregularidade na documentação em 15/02/2026. Em 28/02, apresentou os documentos faltantes. A análise técnica concluiu que os documentos estão conformes. Processo aguarda despacho de regularização para seguir para aprovação.*
 
 Produza, com IA:
 
@@ -1029,7 +1029,7 @@ Isso não substitui a análise humana — mas economiza horas de trabalho prelim
 
 > ⚠️ **LEIA COM ATENÇÃO ANTES DE CONTINUAR**
 >
-> Planilhas do DETRAN-SP frequentemente contêm dados pessoais (CPF, nome, endereço, dados de infração vinculados a pessoas identificáveis). Antes de colar qualquer dado em uma ferramenta de IA pública:
+> Planilhas institucionais frequentemente contêm dados pessoais (CPF, nome, endereço, dados de infração vinculados a pessoas identificáveis). Antes de colar qualquer dado em uma ferramenta de IA pública:
 >
 > **Remova ou substitua:**
 > - Nomes completos → substitua por "Condutor A", "Empresa B"
@@ -1234,11 +1234,11 @@ Monitora objetivos de médio e longo prazo. Metas, indicadores-chave, evolução
 
 ---
 
-### 6.3 Cinco indicadores que fazem sentido para qualquer área do DETRAN-SP
+### 6.3 Cinco indicadores que fazem sentido para qualquer área da instituição
 
 Você pode adaptar os nomes, mas esses tipos de indicador aparecem em praticamente toda área de gestão pública:
 
-| Tipo de indicador | Exemplo aplicado ao DETRAN-SP |
+| Tipo de indicador | Exemplo aplicado à instituição |
 |---|---|
 | **Volume total** | Total de demandas recebidas no período |
 | **Taxa de conclusão no prazo** | % de processos concluídos dentro do prazo legal |
@@ -1413,7 +1413,7 @@ A estrutura deve conter:
 1. TÍTULO (claro, direto, sem jargão)
 2. SUBTÍTULO (o que o cidadão consegue fazer ou saber aqui)
 3. O PROBLEMA (por que esse serviço existe)
-4. A SOLUÇÃO (o que o DETRAN-SP oferece)
+4. A SOLUÇÃO (o que a instituição oferece)
 5. BENEFÍCIOS PARA O CIDADÃO (não para a instituição)
 6. PASSO A PASSO (como usar o serviço — máximo 6 etapas)
 7. PERGUNTAS FREQUENTES (as 5 dúvidas mais comuns)
@@ -1688,7 +1688,7 @@ O Obsidian é a resposta para esse problema. Não porque é o único aplicativo 
 3. Instale normalmente (como qualquer aplicativo)
 4. Abra o Obsidian
 5. Clique em **"Criar novo cofre"**
-6. Escolha uma pasta no seu computador onde as notas serão salvas (ex: `Documentos/DETRAN-2026`)
+6. Escolha uma pasta no seu computador onde as notas serão salvas (ex: `Documentos/PROJETO-2026`)
 7. Dê um nome ao cofre (ex: `DFT - 2026`)
 8. Pronto — você está dentro do Obsidian
 
@@ -2174,7 +2174,7 @@ Aqui, este módulo vem depois porque, agora que você já usou as ferramentas, a
 
 **Risco 2: O texto tem viés ou inadequação institucional**
 
-*O que acontece:* A IA produz um texto com tom político que você não percebeu, ou usa uma perspectiva que não reflete a posição institucional do DETRAN-SP.
+*O que acontece:* A IA produz um texto com tom político que você não percebeu, ou usa uma perspectiva que não reflete a posição institucional do órgão.
 
 *Como prevenir:* Revise sempre o tom e a perspectiva, especialmente em documentos que serão públicos ou que chegam a órgãos externos. Use o Prompt de Controle de Qualidade (Módulo 3) antes de usar qualquer output em documento oficial.
 
@@ -2645,4 +2645,4 @@ Conteúdo base: [insira aqui]
 >
 > Você tem agora tudo que precisa para começar. Comece pequeno — um despacho, uma planilha, uma análise. Mas comece hoje.
 >
-> **DETRAN-SP / Diretoria de Fiscalização de Trânsito — 2026**
+> **Gestão Pública — 2026**

@@ -15,7 +15,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
           <BookOpen className="logo-icon" size={28} />
           <div className="logo-text">
             <h2>IA Aplicada</h2>
-            <p>DETRAN-SP / DFT</p>
+            <p>Gestão Pública</p>
           </div>
         </div>
         <button className="close-button" onClick={onClose}>
