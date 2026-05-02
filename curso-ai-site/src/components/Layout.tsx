@@ -13,7 +13,7 @@ export function Layout() {
         <button className="menu-button" onClick={() => setSidebarOpen(!sidebarOpen)}>
           <Menu size={24} />
         </button>
-        <span className="mobile-title">Curso IA - Gestão Pública</span>
+        <span className="mobile-title">IA Aplicada - DFT</span>
       </div>
 
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
