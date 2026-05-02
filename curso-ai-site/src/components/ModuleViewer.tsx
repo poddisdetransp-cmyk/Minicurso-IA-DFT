@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useEffect, useMemo } from 'react';
 import { ArrowLeft, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { MermaidDiagram } from './MermaidDiagram';
 import courseData from '../data/courseData.json';
 
 export function ModuleViewer() {
@@ -49,7 +50,13 @@ export function ModuleViewer() {
               <blockquote className="md-blockquote" {...props} />
             ),
             code: ({node, inline, className, children, ...props}: any) => {
-              const match = /language-(\w+)/.exec(className || '')
+              const match = /language-(\w+)/.exec(className || '');
+              const lang = match ? match[1] : '';
+
+              if (!inline && lang === 'mermaid') {
+                return <MermaidDiagram chart={String(children).replace(/\n$/, '')} />;
+              }
+
               return !inline ? (
                 <div className="code-block-wrapper">
                   <div className="code-block-header">

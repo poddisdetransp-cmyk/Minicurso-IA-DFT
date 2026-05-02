@@ -50,6 +50,18 @@ Vamos começar pelo que a maioria das pessoas imagina errado.
 **A IA não é uma busca no Google.**
 Quando você digita algo no Google, ele procura páginas que existem na internet e te mostra links. Quando você digita algo numa IA de linguagem, ela não procura nada — ela *gera* uma resposta com base em padrões que aprendeu durante o treinamento. É uma diferença fundamental.
 
+```mermaid
+flowchart LR
+  subgraph Busca_Tradicional[Busca Tradicional]
+    A(Sua Pergunta) --> B[Procura textos]
+    B --> C(Lista de Links)
+  end
+  subgraph IA[Inteligência Artificial]
+    D(Seu Prompt) --> E[Analisa padrões]
+    E --> F(Gera resposta única)
+  end
+```
+
 **A IA não sabe o que está acontecendo agora.**
 A menos que você forneça essa informação no momento da conversa, a IA não tem acesso a notícias do dia, sistemas internos da instituição, e-mails que você recebeu ou processos em andamento. Ela só sabe o que você digitar para ela — e o que aprendeu no treinamento.
 
@@ -396,6 +408,18 @@ A diferença entre os dois é chamada de **engenharia de prompts** — a habilid
 ### 3.2 Os componentes de um prompt de alto desempenho
 
 Um bom prompt não precisa ter todos esses componentes sempre. Mas quanto mais complexa a tarefa, mais componentes você vai precisar.
+
+```mermaid
+flowchart TD
+  A[Prompt de Alto Desempenho] --> B(1. Papel da IA)
+  A --> C(2. Contexto)
+  A --> D(3. Objetivo)
+  A --> E(4. Público-alvo)
+  A --> F(5. Dados disponíveis)
+  A --> G(6. Restrições)
+  A --> H(7. Formato de saída)
+  A --> I(8. Tom)
+```
 
 #### Componente 1: Papel da IA
 
@@ -803,6 +827,16 @@ O tempo cai. A consistência sobe. Mas a responsabilidade continua sendo sua.
 ### 4.2 Estrutura lógica que todo documento bem feito tem
 
 Independente do tipo de documento, existe uma lógica que os melhores despachos e notas técnicas seguem. Quando você ensinar essa estrutura para a IA, ela vai seguir:
+
+```mermaid
+flowchart LR
+  A(Contexto) --> B(Histórico)
+  B --> C(Problema)
+  C --> D(Análise)
+  D --> E(Fundamentos)
+  E --> F(Providências)
+  F --> G(Encaminhamento)
+```
 
 1. **Contexto** — De onde vem essa demanda? Qual é o processo? Qual é o número?
 2. **Histórico** — O que já aconteceu antes? Quais atos administrativos existem?
@@ -1219,6 +1253,17 @@ A IA pode ajudar muito nessa etapa — a de pensar a estrutura antes de implemen
 ---
 
 ### 6.2 Três tipos de dashboard — e qual você precisa
+
+```mermaid
+flowchart TD
+  A{Decisão a Apoiar}
+  A --> B[Dia a Dia]
+  A --> C[Semana/Mês]
+  A --> D[Longo Prazo]
+  B --> E[Operacional: \nVolume e Prazos]
+  C --> F[Tático: \nTendências e Variações]
+  D --> G[Estratégico: \nMetas e Indicadores]
+```
 
 **Dashboard Operacional:**
 Acompanha o dia a dia. Volume, status, prazos, alertas.
